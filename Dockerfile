@@ -20,7 +20,7 @@ ADD etc/config/local.conf /etc/config/local.conf
 
 # Set environment variables.
 ENV LANG ja_JP.UTF-8
-ENV PYTHONINENCODIND utf_8
+ENV PYTHONIOENCODING utf_8
 
 # Define default command.
 CMD ["bin/bash"]
